@@ -1,0 +1,36 @@
+{
+  "name": "koa",
+  "version": "2.13.0",
+  "description": "Koa web app framework",
+  "main": "lib/application.js",
+  "exports": {
+    ".": {
+      "require": "./lib/application.js",
+      "import": "./dist/koa.mjs"
+    },
+    "./": "./"
+  },
+  "scripts": {},
+  "repository": "koajs/koa",
+  "keywords": [
+    "web",
+    "app",
+    "http",
+    "application",
+    "framework",
+    "middleware",
+    "rack"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "koa-compose": "^4.1.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "^4.8.4 || ^6.10.1 || ^7.10.1 || >= 8.1.4"
+  },
+  "files": [
+    "dist",
+    "lib"
+  ]
+}
